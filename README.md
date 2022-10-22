@@ -12,3 +12,10 @@
      In test bench , ive initialized the test values to the module fulladder via registers named a,b,cin and output is taken out via wires cout,sum.
      The fulladder module is instantiated in testbench. At time=0 the values for a,b are given as 0 and 3. After a delay of 50ns, the values are changed to 1 and 2.Afer 50ns it is changed to 2 and 2. The entire simulation is finished after a 50ns delay.
       We can see the sum,carry values in timing diagram attached.
+      
+##Week-3(2_bit Adder using different modelling styles)
+      In Behavioral modelling, a case statement is used and if the input matches with anyone of the cases , the statements following that case will be executed. In this case the value of sum and cout is assigned with a value based on the input values.If we see the rtl diagram of this modelling we can see a rom.The statements to be executed after a case statements are stored in there.
+      In behavioral testbench, ive toggled the values the values of input at specific time intervals to get a combination of all the inputs
+      In dataflow modelling,the sum is calculated using the operator(^) and cout using operators(&,+).These operators acts on operands(a and b) and sum,cout is computed.assign statement is used to continously assign the datavalues to drive the output.
+      The gatelevel modelling is similar to dataflow modelling except the operators are described by their gate structures.It is just a copy of the Week-2 task.
+      
