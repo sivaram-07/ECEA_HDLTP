@@ -20,3 +20,8 @@
       In dataflow modelling,the sum is calculated using the operator(^) and cout using operators(&,+).These operators acts on operands(a and b) and sum,cout is computed.assign statement is used to continously assign the datavalues to drive the output.
       The gatelevel modelling is similar to dataflow modelling except the operators are described by their gate structures.It is just a copy of the Week-2 task.
       
+## Week-4 (Combinational Ckts)
+      The half adder and fulladder were the same used in previous week.
+      THe multiplexer,demultiplexer,decoder and encoder were designed using behavioral model.case statement is used in writing the code.
+      Logical expression is done via dataflow model.
+      In BCD Adder the sum is first computed and stored in a temporary register and checked whether it is greater than 9 , if yes then 6 was added to the sum and cout is asserted to 1.
