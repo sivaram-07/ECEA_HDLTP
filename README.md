@@ -25,3 +25,5 @@
       THe multiplexer,demultiplexer,decoder and encoder were designed using behavioral model.case statement is used in writing the code.
       Logical expression is done via dataflow model.
       In BCD Adder the sum is first computed and stored in a temporary register and checked whether it is greater than 9 , if yes then 6 was added to the sum and cout is asserted to 1.
+## Week-5
+
