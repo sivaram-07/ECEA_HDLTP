@@ -27,3 +27,9 @@
       In BCD Adder the sum is first computed and stored in a temporary register and checked whether it is greater than 9 , if yes then 6 was added to the sum and cout is asserted to 1.
 ## Week-5
 
+
+
+
+
+## Week6,7
+I have choosen Encoder for (7,4) cyclic codes as my circuit and the IEEE format report was uploaded in the Week6,7 folder
