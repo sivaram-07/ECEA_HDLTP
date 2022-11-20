@@ -32,4 +32,4 @@
 
 
 ## Week6,7
-I have choosen Encoder for (7,4) cyclic codes as my circuit and the IEEE format report was uploaded in the Week6,7 folder
+      I have choosen Encoder for (7,4) cyclic codes using LFSR as my circuit and the IEEE format report was uploaded in the Week6,7 folder
