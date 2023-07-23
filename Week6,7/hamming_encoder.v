@@ -60,7 +60,7 @@ begin
 sr<=3'b000;
 count<=3'b000;
 me<=4'b0000;
-o<=6'b000000;
+o<=7'b000000;
 end
 else
 begin
